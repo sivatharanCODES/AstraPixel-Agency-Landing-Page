@@ -1,0 +1,89 @@
+/* 
+-- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default : 400
+Medium : 500
+Semi-Bold : 600
+Bold : 700
+
+- Line heights
+Default : 1 
+1.05
+1.2
+1.6
+1.8
+- Letter spacing
+-0.5px
+0.75px
+-- 02 COLORS
+
+-Primary : #41c6ab
+-Tints :  #061411
+-Shades : #ecf9f7 ##c6eee6
+-Accents : 
+-Greys :  #555 #333 #6f6f6f #767676
+
+-- 03 IMAGES
+-- 04 ICONS
+
+-- 05 SHADOWS 
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+-- 06 BORDER-RADIUS
+Default: 9px 11px
+
+-- 07 WHITESPACE
+- SPACING SYSTEM (px):
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+-- 
+*/
+/* ************************************* */
+/* Text contents */
+/* ************************************* */
+.tag {
+  font-size: 1.6rem;
+  background-color: #06020d;
+  border: 1px solid #41c6ab;
+  padding: 1rem 2.2rem;
+  border-radius: 0.9rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+}
+
+.tag--dark {
+  color: #222;
+}
+.tag--light {
+  color: #ecf9f7;
+}
+
+.heading-primary {
+  font-family: "Jost", sans-serif;
+  font-size: 7.4rem;
+  line-height: 1.05;
+  font-weight: 600;
+  color: #ecf9f7;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+.highlight-text {
+  display: block;
+  color: #41c6ab;
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+.paragraph--light {
+  font-weight: 300;
+  color: #c4ede5;
+}
