@@ -85,6 +85,26 @@ Default: 9px 11px
   color: #41c6ab;
 }
 
+/* Mobile Navigation */
+.btn-mobile-nav {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+.menu,
+.close {
+  font-size: 3.6rem;
+  color: #ecf9f7;
+}
+.menu,
+.nav-open .close {
+  display: block;
+}
+.close,
+.nav-open .menu {
+  display: none;
+}
+
 /* ************************************* */
 /* Hero Section */
 /* ************************************* */
