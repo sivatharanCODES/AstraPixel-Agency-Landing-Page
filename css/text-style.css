@@ -46,9 +46,9 @@ Default: 9px 11px
 /* Text contents */
 /* ************************************* */
 .tag {
+  display: inline-block;
   font-size: 1.6rem;
-  background-color: #06020d;
-  border: 1px solid #41c6ab;
+  border: 2px solid #41c6ab;
   padding: 1rem 2.2rem;
   border-radius: 0.9rem;
   letter-spacing: 0.05rem;
@@ -58,22 +58,35 @@ Default: 9px 11px
 }
 
 .tag--dark {
-  color: #222;
+  color: #41c6ab;
 }
 .tag--light {
   color: #ecf9f7;
 }
 
-.heading-primary {
+.heading-primary,
+.heading-secondary {
   font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+.heading-primary {
   font-size: 7.4rem;
   line-height: 1.05;
-  font-weight: 600;
-  color: #ecf9f7;
-  text-align: center;
   margin-bottom: 3.2rem;
 }
 
+.heading-secondary {
+  font-size: 4.2rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.text-dark {
+  color: #0d2822;
+}
+.text-light {
+  color: #ecf9f7;
+}
 /* Hero text effect */
 .highlight-text {
   display: flex;
@@ -123,8 +136,13 @@ Default: 9px 11px
   font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 4.8rem;
+  letter-spacing: 0.5px;
 }
 .paragraph--light {
   font-weight: 300;
   color: #c4ede5;
+}
+.paragraph--dark {
+  font-weight: 300;
+  color: #495057;
 }

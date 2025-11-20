@@ -186,3 +186,31 @@ Default: 9px 11px
     transform: translateX(-135rem);
   }
 }
+
+/* ************************************* */
+/* About us Section */
+/* ************************************* */
+.section-about-us {
+  margin: 9.6rem 0;
+}
+.about-img-container {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 9px;
+}
+.about-us-img {
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  background-image: url("../img/about.jpg");
+  /* background-color: #06020d; */
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+.about-us-img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
