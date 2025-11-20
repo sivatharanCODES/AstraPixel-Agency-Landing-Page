@@ -53,6 +53,10 @@ Our user-centered designs focus on intuitive navigation, modern aesthetics, and 
 
 From marketing visuals to complete brand assets, our creative team produces eye-catching, professional designs that elevate your brand presence.
 
+## **Social Media Marketing**
+
+Grow your brand presence across major social platforms with strategic content, targeted campaigns, and data-backed optimizations. We help you build engaged communities, boost visibility, and drive real business results through effective social media management.
+
 ### **SEO**
 
 Increase website traffic, improve search engine ranking, and attract qualified leads with our data-driven SEO strategies tailored to your industry.
