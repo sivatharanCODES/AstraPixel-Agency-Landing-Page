@@ -58,7 +58,8 @@ Default: 9px 11px
 }
 
 .tag--dark {
-  color: #41c6ab;
+  color: #349e89;
+  border: 2px solid #349e89;
 }
 .tag--light {
   color: #ecf9f7;

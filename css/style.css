@@ -22,7 +22,7 @@ Default : 1
 -- 02 COLORS
 
 -Primary : #41c6ab
--Tints :  #061411
+-Tints :  #061411 #349e89 #133b33
 -Shades : #ecf9f7 ##c6eee6
 -Accents : 
 -Greys :  #555 #333 #6f6f6f #767676
@@ -214,3 +214,26 @@ Default: 9px 11px
   filter: grayscale(0%);
   transform: scale(1.1);
 }
+
+.achievement {
+  display: flex;
+  gap: 4.8rem;
+}
+
+.ach-data {
+  font-size: 1.4rem;
+  color: rgba(19, 59, 51, 0.7);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.ach-data span {
+  display: block;
+  font-family: "Jost", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: #133b33;
+  padding-bottom: 0.8rem;
+}
+
+/* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 /  */
