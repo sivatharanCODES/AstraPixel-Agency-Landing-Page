@@ -6,3 +6,5 @@ const btnMobileNav = document.querySelector(".btn-mobile-nav");
 btnMobileNav.addEventListener("click", function () {
   btnMobileNav.classList.toggle("nav-open");
 });
+
+//

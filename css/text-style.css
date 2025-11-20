@@ -74,12 +74,12 @@ Default: 9px 11px
   margin-bottom: 3.2rem;
 }
 
-/* #TODO */
+/* Hero text effect */
 .highlight-text {
   display: flex;
   flex-direction: column;
   color: #41c6ab;
-  overflow-y: auto;
+  overflow-y: hidden;
   height: 7.9rem;
   gap: 3.2rem;
   margin-top: 1.6rem;
