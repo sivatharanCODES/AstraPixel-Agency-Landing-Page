@@ -151,42 +151,6 @@ Default: 9px 11px
   gap: 3.2rem;
 }
 
-.logos-container {
-  display: flex;
-  padding: 0 3.6rem;
-  max-width: 130rem;
-  width: 90%;
-  margin: 0 auto 9.6rem auto;
-  overflow: hidden;
-  mask-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 1) 10%,
-    rgba(0, 0, 0, 1) 90%,
-    rgba(0, 0, 0, 0)
-  );
-}
-.logos {
-  display: flex;
-  animation: spin 10s infinite linear;
-}
-.brands-logo {
-  height: 4rem;
-  flex: 0 0 3.6rem;
-  filter: brightness(0) invert(1);
-  opacity: 35%;
-  align-items: center;
-  margin-left: 12.6rem;
-}
-@keyframes spin {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-135rem);
-  }
-}
-
 /* ************************************* */
 /* About us Section */
 /* ************************************* */
