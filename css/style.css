@@ -111,31 +111,10 @@ Default: 9px 11px
 .section-hero {
   display: flex;
   flex-direction: column;
-  background: #06020d;
-  position: relative;
-  overflow: hidden;
   align-items: center;
   justify-content: center;
 }
 
-.section-hero::after,
-.section-hero::before {
-  content: "";
-  display: block;
-  background-color: rgba(84, 204, 180, 0.5);
-  position: absolute;
-  padding: 25rem;
-  border-radius: 50%;
-  filter: blur(140px);
-}
-.section-hero::after {
-  top: -20rem;
-  left: -12rem;
-}
-.section-hero::before {
-  bottom: -12rem;
-  right: -12rem;
-}
 .hero {
   display: flex;
   flex-direction: column;
@@ -191,7 +170,7 @@ Default: 9px 11px
 /* About us Section */
 /* ************************************* */
 .section-about-us {
-  margin: 9.6rem 0;
+  padding: 9.6rem 0;
 }
 .about-img-container {
   display: block;

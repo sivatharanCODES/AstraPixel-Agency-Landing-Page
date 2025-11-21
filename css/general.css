@@ -137,3 +137,28 @@ body {
   transform: translateY(5px);
   box-shadow: inset 0 0 0 1px #54ccb3;
 }
+
+/* Animated Background Style */
+.animated-background {
+  overflow: hidden;
+  background: #06020d;
+  position: relative;
+}
+.animated-background::after,
+.animated-background::before {
+  content: "";
+  display: block;
+  background-color: rgba(84, 204, 180, 0.5);
+  position: absolute;
+  padding: 25rem;
+  border-radius: 50%;
+  filter: blur(140px);
+}
+.animated-background::after {
+  top: -20rem;
+  left: -12rem;
+}
+.animated-background::before {
+  bottom: -12rem;
+  right: -12rem;
+}
