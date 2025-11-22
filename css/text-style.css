@@ -81,7 +81,12 @@ Default: 9px 11px
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
-
+.tertiary-heading {
+  font-family: "Lexend", sans-serif;
+  color: #c4ede5;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
 .text-dark {
   color: #0d2822;
 }
@@ -103,6 +108,12 @@ Default: 9px 11px
   display: block;
   animation: role-text 10s infinite ease-in-out 1s;
   animation-fill-mode: forwards;
+}
+.text--center {
+  text-align: center;
+}
+.text--left {
+  text-align: left;
 }
 /* animation */
 @keyframes role-text {
@@ -136,12 +147,13 @@ Default: 9px 11px
 .paragraph {
   font-size: 1.8rem;
   line-height: 1.8;
-  margin-bottom: 4.8rem;
+  margin-bottom: 6.4rem;
   letter-spacing: 0.5px;
 }
 .paragraph--light {
   font-weight: 300;
   color: #c4ede5;
+  opacity: 60%;
 }
 .paragraph--dark {
   font-weight: 300;

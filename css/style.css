@@ -135,7 +135,7 @@ Default: 9px 11px
   padding: 0 3.6rem;
   max-width: 130rem;
   width: 90%;
-  margin: 0 auto 9.6rem auto;
+  margin: 0 auto 12.8rem auto;
   overflow: hidden;
   mask-image: linear-gradient(
     to right,
@@ -170,7 +170,7 @@ Default: 9px 11px
 /* About us Section */
 /* ************************************* */
 .section-about-us {
-  padding: 9.6rem 0;
+  padding: 12.8rem 0;
 }
 .about-img-container {
   display: block;
@@ -213,6 +213,50 @@ Default: 9px 11px
   font-weight: 500;
   color: #133b33;
   padding-bottom: 0.8rem;
+}
+
+/* ************************************* */
+/* Services Section */
+/* ************************************* */
+.section-services {
+  padding: 12.8rem 0;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  grid-column: span 2;
+  /* background-color: #06020d; */
+  background-color: rgba(65, 198, 171, 0.097);
+  /* box-shadow: 0 2.4rem 4.8rem rgba(65, 198, 171, 0.097); */
+  padding: 3.2rem;
+  border-radius: 9px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+}
+.service1 {
+  grid-column: span 3;
+}
+
+.icon-box {
+  display: flex;
+  padding: 1.2rem;
+  background-color: #41c6ab;
+  width: 5.4rem;
+  border-radius: 9px;
+}
+.service-icon {
+  font-size: 3rem;
+  /* color: rgba(65, 198, 171, 0.097); */
+  color: #0d2822;
+}
+.service-text {
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  margin-top: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 200;
 }
 
 /* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 /  */
