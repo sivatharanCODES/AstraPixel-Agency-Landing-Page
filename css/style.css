@@ -254,7 +254,7 @@ Default: 9px 11px
   font-size: 1.6rem;
   line-height: 1.8;
   letter-spacing: 1px;
-  margin-top: 1.2rem;
+  /* margin-top: 1.2rem; */
   color: rgba(255, 255, 255, 0.7);
   font-weight: 200;
 }
