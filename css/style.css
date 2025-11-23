@@ -108,13 +108,23 @@ Default: 9px 11px
 /* ************************************* */
 /* Hero Section */
 /* ************************************* */
+
 .section-hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
+.section-hero .hero-background,
+.section-hero .hero-background img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -100;
+}
 .hero {
   display: flex;
   flex-direction: column;
