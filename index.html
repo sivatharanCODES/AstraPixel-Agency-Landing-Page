@@ -51,7 +51,7 @@
     </header>
     <main>
       <section class="section-hero">
-        <picture class="hero-background">
+        <picture class="obj-fit">
           <!-- <source
             media="(max-width:600)"
             srcset="img/backgrounds/desktop_background_pc.webp"
@@ -65,6 +65,7 @@
           <img
             src="img/backgrounds/desktop_background_pc.png"
             alt="AstraPixel hero background image"
+            class="obj-fit"
           />
         </picture>
         <div class="hero">
@@ -177,8 +178,19 @@
         </div>
       </section>
       <!-- section services -->
-      <section class="section-services animated-background">
-        <div class="container text--center">
+      <section class="section-services">
+        <!-- section gaussian bg -->
+        <picture class="obj-fit">
+          <source srcset="img/backgrounds/services_section_pc.webp" />
+          <source srcset="img/backgrounds/services_section_pc.png" />
+          <img
+            src="img/backgrounds/services_section_pc.png"
+            alt="sevices section gaussian blur background"
+            class="obj-fit"
+          />
+        </picture>
+
+        <div class="container text--center padding-top-bottom-128">
           <div class="tag tag--light">Services</div>
           <h2 class="heading-secondary text-light">
             Digital Services That Accelerate Your Growth
