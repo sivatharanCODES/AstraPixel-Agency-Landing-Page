@@ -71,13 +71,13 @@ Default: 9px 11px
   font-weight: 600;
 }
 .heading-primary {
-  font-size: 7.4rem;
+  font-size: 8.6rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
 }
 
 .heading-secondary {
-  font-size: 4.2rem;
+  font-size: 4.4rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
@@ -85,7 +85,7 @@ Default: 9px 11px
   font-family: "Lexend", sans-serif;
   color: #c4ede5;
   font-size: 2.4rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 .text-dark {
   color: #0d2822;
@@ -99,15 +99,16 @@ Default: 9px 11px
   flex-direction: column;
   color: #41c6ab;
   overflow-y: hidden;
-  height: 7.9rem;
+  height: 10rem;
   gap: 3.2rem;
   margin-top: 1.6rem;
 }
 
 .text {
   display: block;
-  animation: role-text 10s infinite ease-in-out 1s;
+  animation: role-text 9s infinite ease-in-out 1s;
   animation-fill-mode: forwards;
+  transform: translateY(-10%);
 }
 .text--center {
   text-align: center;
@@ -121,34 +122,66 @@ Default: 9px 11px
     transform: translateY(-10%);
     opacity: 1;
   }
-  16% {
-    opacity: 0;
-  }
-  33% {
-    transform: translateY(-154%);
+  2% {
+    transform: translateY(-10%);
     opacity: 1;
   }
-  50% {
+  13% {
     opacity: 0;
   }
-  67% {
-    transform: translateY(-285%);
+  20% {
+    opacity: 0;
+  }
+  31% {
+    transform: translateY(-140%);
     opacity: 1;
   }
-  83% {
+  35% {
+    transform: translateY(-140%);
+    opacity: 1;
+  }
+  46% {
     opacity: 0;
+  }
+  54% {
+    opacity: 0;
+  }
+  65% {
+    transform: translateY(-270%);
+    opacity: 1;
+  }
+  69% {
+    transform: translateY(-270%);
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  87% {
+    opacity: 0;
+  }
+  98% {
+    transform: translateY(-416%);
+    opacity: 1;
   }
   100% {
-    transform: translateY(-432%);
+    transform: translateY(-416%);
     opacity: 1;
   }
 }
 
+.hero--description,
 .paragraph {
-  font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 6.4rem;
   letter-spacing: 0.5px;
+}
+.hero--description {
+  font-size: 2rem;
+  text-align: center;
+}
+.paragraph {
+  font-size: 1.8rem;
 }
 .paragraph--light {
   font-weight: 300;

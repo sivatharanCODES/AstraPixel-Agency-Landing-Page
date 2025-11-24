@@ -124,9 +124,7 @@ Default: 9px 11px
   max-width: 110rem;
   align-items: center;
 }
-.hero--description {
-  text-align: center;
-}
+
 .hero-btns {
   display: flex;
   gap: 3.2rem;
