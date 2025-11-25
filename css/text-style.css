@@ -67,19 +67,20 @@ Default: 9px 11px
 
 .heading-primary,
 .heading-secondary {
-  font-family: "Jost", sans-serif;
-  font-weight: 600;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 .heading-primary {
-  font-size: 8.6rem;
-  line-height: 1.05;
+  font-size: 9.8rem;
+  line-height: 1.2;
   margin-bottom: 3.2rem;
+  font-weight: 800;
 }
 
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 5.2rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
+  font-weight: 700;
 }
 .tertiary-heading {
   font-family: "Lexend", sans-serif;
@@ -184,11 +185,11 @@ Default: 9px 11px
   font-size: 1.8rem;
 }
 .paragraph--light {
-  font-weight: 300;
+  font-weight: 400;
   color: #c4ede5;
   opacity: 60%;
 }
 .paragraph--dark {
-  font-weight: 300;
+  font-weight: 400;
   color: #495057;
 }
