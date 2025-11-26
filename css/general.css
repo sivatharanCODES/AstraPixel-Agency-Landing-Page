@@ -111,7 +111,7 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #41c6ab;
+  background-color: #9cfe50;
 }
 .btn--full:hover {
   background-color: #349e89;
@@ -153,26 +153,27 @@ body {
 /* Animated Background Style */
 .animated-background {
   overflow: hidden;
-  background: #06020d;
+  background: #0e0f11;
   position: relative;
 }
 .animated-background::after,
 .animated-background::before {
   content: "";
   display: block;
-  background-color: rgba(84, 204, 180, 0.5);
   position: absolute;
-  padding: 25rem;
+  padding: 35rem;
   border-radius: 50%;
   filter: blur(140px);
 }
 .animated-background::after {
-  top: -20rem;
-  left: -12rem;
+  background-color: #9cfe50;
+  top: -35rem;
+  left: -35rem;
 }
 .animated-background::before {
-  bottom: -12rem;
-  right: -12rem;
+  background-color: #7b6ee2;
+  bottom: -15rem;
+  right: -35rem;
 }
 
 /* alignemnts */

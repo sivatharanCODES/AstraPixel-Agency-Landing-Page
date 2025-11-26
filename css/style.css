@@ -123,19 +123,25 @@ Default: 9px 11px
   padding: 17.6rem 4.8rem 9.6rem 4.8rem;
   max-width: 110rem;
   align-items: center;
+  z-index: 2;
 }
 
 .hero-btns {
   display: flex;
   gap: 3.2rem;
 }
+.brands {
+  background-color: #18191b;
+  position: relative;
+  z-index: 2;
+}
 
 .logos-container {
   display: flex;
-  padding: 0 3.6rem;
+  padding: 2.4rem 3.6rem;
   max-width: 130rem;
   width: 90%;
-  margin: 0 auto 12.8rem auto;
+  margin: 0 auto 0 auto;
   overflow: hidden;
   mask-image: linear-gradient(
     to right,
@@ -153,7 +159,7 @@ Default: 9px 11px
   height: 4rem;
   flex: 0 0 3.6rem;
   filter: brightness(0) invert(1);
-  opacity: 35%;
+  opacity: 90%;
   align-items: center;
   margin-left: 12.6rem;
 }
@@ -171,6 +177,7 @@ Default: 9px 11px
 /* ************************************* */
 .section-about-us {
   padding: 12.8rem 0;
+  background-color: #0e0f11;
 }
 .about-img-container {
   display: block;
@@ -179,7 +186,7 @@ Default: 9px 11px
   border-radius: 9px;
   background-color: #133b33;
   position: relative;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2.4rem 4.8rem rgba(255, 255, 255, 0.1);
 }
 .about-us-img {
   width: 100%;
@@ -203,7 +210,7 @@ Default: 9px 11px
 
 .ach-data {
   font-size: 1.4rem;
-  color: rgba(19, 59, 51, 0.7);
+  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -213,7 +220,7 @@ Default: 9px 11px
   font-family: "Jost", sans-serif;
   font-size: 3.6rem;
   font-weight: 500;
-  color: #133b33;
+  color: #9cfe50;
   padding-bottom: 0.8rem;
 }
 
@@ -222,6 +229,7 @@ Default: 9px 11px
 /* ************************************* */
 .section-services {
   position: relative;
+  background-color: #0e0f11;
 }
 .service {
   display: flex;
@@ -229,7 +237,8 @@ Default: 9px 11px
   gap: 2rem;
   grid-column: span 2;
   /* background-color: #06020d; */
-  background-color: rgba(65, 198, 171, 0.097);
+  /* background-color: rgba(65, 198, 171, 0.097); */
+  background-color: #18191b;
   /* box-shadow: 0 2.4rem 4.8rem rgba(65, 198, 171, 0.097); */
   padding: 3.2rem;
   border-radius: 9px;
@@ -242,7 +251,7 @@ Default: 9px 11px
 .icon-box {
   display: flex;
   padding: 1.2rem;
-  background-color: #41c6ab;
+  background-color: #9cfe50;
   width: 5.4rem;
   border-radius: 9px;
 }
