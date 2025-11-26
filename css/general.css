@@ -43,6 +43,22 @@ Default: 9px 11px
 
 -- 
 */
+:root {
+  --primary-color-1: #9cfe4f;
+  --primary-color-1-light: #b0fe72;
+  --primary-color-1-dark: #7dcb3f;
+  --primary-color-2: #8474ff;
+  --primary-color-2-light: #a99eff;
+  --primary-color-2-dark: #5c51b3;
+  --haading-color: #1a1a1a;
+  --primary-black-color: #0e0f11;
+  --white-color: #ffffff;
+  --white-color-2: rgba(255, 255, 255, 0.9);
+  --white-color-3: rgba(255, 255, 255, 0.8);
+  --text-color: #9e9fa0;
+  --border-color: #313131;
+  --grey-dark: #18191b;
+}
 
 * {
   margin: 0;
@@ -54,13 +70,13 @@ html {
   overflow-x: hidden;
   /* for scroll bar */
   scrollbar-width: thin; /* auto | thin | none */
-  scrollbar-color: #41c6ab #061411;
+  scrollbar-color: var(--primary-color-1) var(--primary-black-color);
 }
 
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1;
-  color: #555;
+  color: var(--text-color);
   font-weight: 400;
 }
 
@@ -111,34 +127,33 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #9cfe50;
+  background-color: var(--primary-color-1);
 }
 .btn--full:hover {
-  background-color: #349e89;
+  background-color: var(--primary-color-1-light);
   transform: translateY(-5px);
 }
 .btn--full:active {
-  background-color: #54ccb3;
   transform: translateY(5px);
 }
 
 .btn--outline:link,
 .btn--outline:visited {
-  color: #ecf9f7;
-  border: 1px solid #ecf9f7;
+  color: var(--white-color-2);
+  border: 1px solid var(--white-color-2);
 }
 
 .btn--outline:hover {
-  border: 1px solid #349e89;
-  color: #349e89;
+  border: 1px solid var(--primary-color-1);
+  color: var(--primary-color-1);
   transform: translateY(-5px);
-  box-shadow: inset 0 0 0 1px #349e89;
+  box-shadow: inset 0 0 0 1px var(--primary-color-1);
 }
 .btn--outline:active {
-  border: 1px solid #54ccb3;
-  color: #54ccb3;
+  border: 1px solid var(--primary-color-1-dark);
+  color: var(--primary-color-1-dark);
   transform: translateY(5px);
-  box-shadow: inset 0 0 0 1px #54ccb3;
+  box-shadow: inset 0 0 0 1px var(--primary-color-1-dark);
 }
 
 /* background settings */
@@ -153,7 +168,7 @@ body {
 /* Animated Background Style */
 .animated-background {
   overflow: hidden;
-  background: #0e0f11;
+  background: var(--primary-black-color);
   position: relative;
 }
 .animated-background::after,
@@ -171,12 +186,7 @@ body {
   left: -35rem;
 }
 .animated-background::before {
-  background-color: #7b6ee2;
+  background-color: var(--primary-color-2);
   bottom: -15rem;
   right: -35rem;
-}
-
-/* alignemnts */
-.padding-top-bottom-128 {
-  padding: 12.8rem 0;
 }

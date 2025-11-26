@@ -47,22 +47,17 @@ Default: 9px 11px
 /* ************************************* */
 .tag {
   display: inline-block;
-  font-size: 1.6rem;
-  border: 2px solid #9cfe50;
+  font-size: 1.4rem;
+  border: 1px solid var(--primary-color-1);
   padding: 1rem 2.2rem;
   border-radius: 0.9rem;
   letter-spacing: 0.05rem;
   line-height: 1.1;
   text-transform: uppercase;
   margin-bottom: 3.2rem;
-}
-
-.tag--dark {
-  color: #9cfe50;
-  border: 2px solid #9cfe50;
-}
-.tag--light {
-  color: #ecf9f7;
+  font-weight: 500;
+  color: var(--white-color);
+  border: 2px solid var(--primary-color-1);
 }
 
 .heading-primary,
@@ -74,6 +69,7 @@ Default: 9px 11px
   line-height: 1.2;
   margin-bottom: 3.2rem;
   font-weight: 800;
+  color: var(--white-color);
 }
 
 .heading-secondary {
@@ -81,24 +77,20 @@ Default: 9px 11px
   line-height: 1.2;
   margin-bottom: 3.2rem;
   font-weight: 700;
+  color: var(--white-color-2);
 }
 .tertiary-heading {
   font-family: "Lexend", sans-serif;
-  color: #c4ede5;
+  color: var(--white-color-2);
   font-size: 2.4rem;
   font-weight: 600;
 }
-.text-dark {
-  color: #0d2822;
-}
-.text-light {
-  color: #ecf9f7;
-}
+
 /* Hero text effect */
 .highlight-text {
   display: flex;
   flex-direction: column;
-  color: #9cfe50;
+  color: var(--primary-color-1);
   overflow-y: hidden;
   height: 10rem;
   gap: 3.2rem;
@@ -176,6 +168,7 @@ Default: 9px 11px
   line-height: 1.8;
   margin-bottom: 6.4rem;
   letter-spacing: 0.5px;
+  color: var(--text-color);
 }
 .hero--description {
   font-size: 2rem;
@@ -183,13 +176,6 @@ Default: 9px 11px
 }
 .paragraph {
   font-size: 1.8rem;
-}
-.paragraph--light {
   font-weight: 400;
-  color: #c4ede5;
-  opacity: 60%;
-}
-.paragraph--dark {
-  font-weight: 400;
-  color: #495057;
+  line-height: 3.2rem;
 }
